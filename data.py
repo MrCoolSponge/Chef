@@ -7,7 +7,7 @@ Battle_active = False
 
 Current_Scene = 'Forest'
 
-Menu_Option = ['Discard']
+Menu_Option = ['Discard', 'discard']
 
 class EnemyLevel(object):
     levelrange = {
