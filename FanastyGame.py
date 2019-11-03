@@ -382,10 +382,10 @@ class Map(object):
     def opening_scene(self):
         return self.next_scene(self.start_scene)
 
-#The_Map = Map("StartingScreen")
-#The_Game = Engine(The_Map)
-#The_Game.play()
-
-The_Map = Map('Menu')
+The_Map = Map("StartingScreen")
 The_Game = Engine(The_Map)
 The_Game.play()
+
+#The_Map = Map('Menu')
+#The_Game = Engine(The_Map)
+#The_Game.play()
